@@ -314,7 +314,7 @@ SightseeingService.searchWithFlights("Mumbai")
 └─────────────────────────────────────────────────────┘
     ↓
 Response: List<SightseeingInfo> with places + flights
-
+```
 ## 6. VectorDB Design
 
 ### Database Structure
