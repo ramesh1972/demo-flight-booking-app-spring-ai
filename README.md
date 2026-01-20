@@ -2,9 +2,7 @@
 
 ## 1. Introduction
 
-Welcome to the **Flight & Sightseeing Chat Interface** - a smart travel application that helps you search for flights and discover amazing sightseeing destinations. This application uses artificial intelligence to understand your travel needs and provide personalized recommendations.
-
-The system combines real flight data with tourist attractions using advanced AI technology to give you the best travel planning experience. Whether you're looking for cheap flights or want to know what to see in a new city, this app has got you covered!
+Welcome to the **Flight & Sightseeing Chat Interface** - a smart travel application that helps you search for flights and discover sightseeing destinations. 
 
 ---
 
@@ -62,14 +60,14 @@ demo-flight-booking-app-spring-ai/         # Java Spring Boot Backend
 - Make flight optional - search with just one parameter
 - Book multiple flights for round trips
 
-### Sightseeing Discovery
+### Sightseeing Discovery (RAG)
 
 - Explore tourist attractions in any city
 - Get information about best times to visit
 - Learn estimated costs for sightseeing
 - Discover places with detailed descriptions
 
-### Smart Travel Planning
+### Travel Planning (RAG
 
 - Search sightseeing locations with flights together
 - Get outgoing flights from a destination
@@ -78,7 +76,7 @@ demo-flight-booking-app-spring-ai/         # Java Spring Boot Backend
 
 ### AI-Powered
 
-- Uses Azure OpenAI for intelligent responses
+- Uses Azure OpenAI 
 - RAG (Retrieval Augmented Generation) for accurate data
 - Structured output for consistent results
 
@@ -112,9 +110,7 @@ demo-flight-booking-app-spring-ai/         # Java Spring Boot Backend
    - Clean up formatting issues
 
 4. **Azure OpenAI Integration**
-   - Uses Azure's powerful language models
-   - Secure and enterprise-ready
-   - Fast response times
+   - Uses Azure's language models
 
 ## 5. Example Flows
 
