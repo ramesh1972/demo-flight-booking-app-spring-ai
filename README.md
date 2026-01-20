@@ -204,12 +204,11 @@ FlightStructuredOutputConverter.convertResponse(response)
      flightNo: "AI202",
      ...
    }
-
-```txt
+```
 
 ### Use Case 4: Complete End-to-End Flow
 
-```
+```txt
 
 HTTP Request: GET /api/ai/flights/search?to=Mumbai
     ↓
@@ -275,12 +274,11 @@ HTTP Response: 200 OK
   },
   ...
 ]
+```
+
+### Use Case 5: Multi-Service Orchestration (Sightseeing + Flights)
 
 ```txt
-
-#### Use Case 5: Multi-Service Orchestration (Sightseeing + Flights)
-
-```
 
 Request: GET /api/sightseeing/search-with-flights?prompt=Mumbai
     ↓
@@ -356,6 +354,7 @@ Query: "Mumbai flights"
 │  └─ Return: [sightseeing info]
 │
 └─ Return Results to Service
+```
 
 ### Index Details
 
@@ -387,6 +386,7 @@ Prices: 2700-4500"
 Pass to AI with prompt
     ↓
 AI generates structured response
+```
 
 ## 7. Getting Started
 
